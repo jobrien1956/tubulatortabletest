@@ -1,0 +1,116 @@
+﻿https://api.smugmug.com/hack/rest/1.2.0/?method=smugmug.login.withPassword&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&EmailAddress=jobrien1956@gmail.com&Password=Jkka!9844891
+
+API Key: dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57
+
+
+<rsp stat="ok">
+<method>smugmug.login.withPassword</method>
+<Login PasswordHash="5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42" AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="b00f60df4fa255b7101fd3530482bcc2"/>
+<User id="2205936" NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+
+11/28 w hash
+<rsp stat="ok">
+<method>smugmug.login.withPassword</method>
+<Login PasswordHash="5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42" AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="40c99d26dd89746b7ac957a49a4771f1"/>
+<User id="2205936" NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+
+11/30/17
+<rsp stat="ok">
+<method>smugmug.login.withPassword</method>
+<Login PasswordHash="5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42" AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="577415bd1e2050ad123b76b857c4a7ad"/>
+<User id="2205936" NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+
+
+https://api.smugmug.com/services/api/json/1.2.2/?method=smugmug.images.get&AlbumKey=mRZGLr&AlbumID=51125084&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&SessionID=970a00597185d884d725f36f7fe0ced4
+
+https://api.myjson.com/bins/1dzvyr
+
+{
+"stat":"ok",
+"method":"smugmug.images.get",
+"Album":{
+"id":51125084,
+"Key":"mRZGLr",
+"ImageCount":62,
+"Images":[
+	{"id":4256826670,"Key":"9pvCnkX"},
+	{"id":4256826725,"Key":"HstZ89m"},
+	{"id":4256826734,"Key":"sK6DpHN"},{"id":4256826759,"Key":"fpFmVfs"},{"id":4256826768,"Key":"5CHcT2F"},{"id":4256864269,"Key":"qm3wb5r"},{"id":4256864254,"Key":"Qvj2sPf"},{"id":4256864301,"Key":"vLtNM4F"},{"id":4256864302,"Key":"Rsc4r28"},{"id":4256826826,"Key":"t5Cxccv"},{"id":4256826812,"Key":"vn64Rvf"},{"id":4256826848,"Key":"fZfskhn"},{"id":4256826862,"Key":"q3HsF5W"},{"id":4256826913,"Key":"jzC3jDS"},{"id":4256826891,"Key":"74mDnxf"},{"id":4256826938,"Key":"qNFDHxB"},{"id":4256826935,"Key":"Q5zD63X"},{"id":4256826958,"Key":"XpsQ38M"},{"id":4256826984,"Key":"qkD7nMB"},{"id":4256826989,"Key":"ZmXK2bJ"},{"id":4256826973,"Key":"MSJ7VHp"},{"id":4256864329,"Key":"TsdxtgR"},{"id":4256827020,"Key":"zFGHHgm"},{"id":4256827007,"Key":"b8RtZbF"},{"id":4256827023,"Key":"9Vn5nBH"},{"id":4256827041,"Key":"SdKn3xK"},{"id":4256827066,"Key":"f6zQDsH"},{"id":4256827082,"Key":"sqVnhMS"},{"id":4256827115,"Key":"kdt6PKt"},{"id":4256827141,"Key":"KNQBLZ6"},{"id":4256827174,"Key":"BPR9d4G"},{"id":4256827186,"Key":"zzNXxmz"},{"id":4256827213,"Key":"sKcczFV"},{"id":4256827248,"Key":"qr9pxSz"},{"id":4256827258,"Key":"dCvcrDr"},{"id":4258857341,"Key":"LrWSJMd"},{"id":4256827266,"Key":"8hHC4Ph"},{"id":4256827289,"Key":"ZmBWjN2"},{"id":4256826258,"Key":"sdtFH8G"},{"id":4256826256,"Key":"MTp8DTG"},{"id":4256826292,"Key":"Zdd9w57"},{"id":4256826295,"Key":"kM5hWzG"},{"id":4256826355,"Key":"fwgmrHH"},{"id":4256826357,"Key":"VFrsfRq"},{"id":4256864320,"Key":"gdhzzrx"},{"id":4256864340,"Key":"wpbzPmq"},{"id":4256864352,"Key":"SwwccLw"},{"id":4256864348,"Key":"pXk9DS8"},{"id":4256826411,"Key":"kqcQ8bp"},{"id":4256826406,"Key":"8HJVKBg"},{"id":4256826463,"Key":"sBdP7Bw"},{"id":4256826477,"Key":"ghmxbPd"},{"id":4256826514,"Key":"t3GLG5w"},{"id":4256826582,"Key":"WLKchNp"},{"id":4256826552,"Key":"DzpCBfL"},{"id":4256864389,"Key":"VMNvXrs"},{"id":4256826558,"Key":"cgBfrsH"},{"id":4256826602,"Key":"KPPBk2h"},{"id":4256826617,"Key":"VxJr5Sq"},{"id":4256826683,"Key":"JKj3mVL"},{"id":4258857507,"Key":"jDMCP7c"},{"id":4258857900,"Key":"FThj5TQ"}],"URL":"https://havingadventures.smugmug.com/201506-Tour-Divide/20150625"}}
+
+
+11/27/17
+<rsp stat="ok">
+<method>smugmug.login.withPassword</method>
+<Login PasswordHash="5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42" AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="6c42a9525598aab58aa370fef81c683b"/>
+<User id="2205936" NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+11/28/17
+cresult 
+
+<rsp stat="ok">
+<method>smugmug.login.withHash</method>
+<Login AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="de638e6d1c0ce75884271447daac1c13"/>
+<User NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+
+Find all pictures in an Album
+https://api.smugmug.com/services/api/json/1.2.2/?method=smugmug.images.get&AlbumKey=Rmd77V&AlbumID=151029775&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&SessionID=6c42a9525598aab58aa370fef81c683b
+
+
+https://api.smugmug.com/hack/rest/1.2.0/?method=smugmug.login.withHash&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&UserID=2205936&PasswordHash=5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42
+11/28 output
+<rsp stat="ok">
+<method>smugmug.login.withHash</method>
+<Login AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="de638e6d1c0ce75884271447daac1c13"/>
+<User NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+
+
+<rsp stat="ok">
+<method>smugmug.login.withHash</method>
+<Login AccountType="Power" FileSizeLimit="157286400" SmugVault="0">
+<Session id="7dc9c0a0f2d49a26eaab471f89e90e84"/>
+<User NickName="havingadventures" DisplayName="Jim OBrien"/>
+</Login>
+</rsp>
+
+https://api.smugmug.com/hack/rest/1.2.0/?method=smugmug.login.withHash&APIKey=YOURAPIKEY&UserID=55555&PasswordHash=$7s87s657sd78$zmUjF6gTpMS6756dfuZ1
+
+
+https://api.smugmug.com/hack/jason/1.2.0/?method=smugmug.login.withHash&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&UserID=2205936&PasswordHash=5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42
+
+https://api.smugmug.com/hack/rest/1.2.0/?method=smugmug.albums.get&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&SessionID=7dc9c0a0f2d49a26eaab471f89e90e84
+
+https://api.smugmug.com/services/api/json/1.2.2/?method=smugmug.albums.get&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&SessionID=7dc9c0a0f2d49a26eaab471f89e90e84
+https://api.smugmug.com/services/api/json/1.2.2/?APIKey=PUBLIC_API_KEY&method=smugmug.login.anonymously
+import urllib, urllib.parse, urllib.request, json
+
+APIServer="https://api.smugmug.com/services/api/json/1.2.2/?";
+
+def smugmug_call(keys) :
+url=APIServer+urllib.parse.urlencode(keys);
+raw_data=urllib.request.urlopen(url)
+results=json.loads(raw_data.readall().decode())
+return results
+
+session = smugmug_call({"APIKey": APIKey,"method":"smugmug.login.anonymously"})
+albums=smugmug_call({'SessionID' : session,'NickName':'pearsonartphoto',"method":'smugmug.albums.get'})
+index=0
+for album in albums:
+index+=1
+print(index,album)

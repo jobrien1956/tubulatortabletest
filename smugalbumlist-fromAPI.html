@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+  <style>
+
+
+  </style>
+</head>
+
+<body>
+
+
+  <div id="output1">TD List<br></div>
+  <br>
+
+</body>
+<script>
+  var output1 = document.getElementById('output1');
+  var output2 = document.getElementById('output2');
+
+  var hr = new XMLHttpRequest();
+  var url = "https://api.smugmug.com/services/api/json/1.2.2/?method=smugmug.images.get&AlbumKey=mRZGLr&AlbumID=51125084&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&SessionID=593220cd214b37029e3589f8a0bb500a"
+
+
+  APIKey = dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57
+
+  EmailAddress = jobrien1956 @gmail.com
+
+  https: //api.smugmug.com/hack/rest/1.2.0/?method=smugmug.login.withPassword&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&EmailAddress=jobrien1956@gmail.com&Password= [sent separately]
+    returned below <
+    rsp stat = "ok" >
+    <
+    method > smugmug.login.withPassword < /method> <
+  Login PasswordHash = "2834c0b90f215c4367ffce13c5c4866f093182b82eb6f46d0dc4a2d6940e8a01"
+  AccountType = "Power"
+  FileSizeLimit = "157286400"
+  SmugVault = "0" >
+    <
+    Session id = "14f3d3b554a45a7c318d224fafee9be5" / >
+    <
+    User id = "2205936"
+  NickName = "havingadventures"
+  DisplayName = "Jim OBrien" / >
+    <
+    /Login> < /
+    rsp >
+
+
+    // https://api.smugmug.com/hack/rest/1.2.0/?method=smugmug.login.withHash&APIKey=dPsQJFbrpFBXNBzv9Vx8n637GqbNdb57&UserID=2205936&PasswordHash=5e9a3134ff525036df2f783bc223eacb9e53d9780eeffd9aa62b4a615afcae42
+
+
+
+    hr.onreadystatechange = function() {
+      if (this.stat == "ok") {
+        var myObj = JSON.parse(hr.responseXML);
+        console.log(myObj);
+        for (var i = 0; i < myObj.Albums.length; i++) {
+          output1.innerHTML +=
+            "<br> id = " + myObj.Albums[i].id +
+            ",   Key = " + myObj.Albums[i].Key +
+            ", Category Id -" + myObj.Albums[i].Category.id +
+            ", Category name -" + myObj.Albums[i].Category.Name +
+            ", Album Title -" + myObj.Albums[i].Title;
+          console.log(myObj)
+        }
+
+      }
+    }
+
+  hr.open("GET", url, true);
+
+  hr.send();
+  console.log(hr);
+
+</script>
